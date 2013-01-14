@@ -7,7 +7,9 @@ Setup
 -----
 
 1. Copy Java files from src folder to the src folder or your project.
-2. Add the following lines in your AndroidManifest.additional.xml (see also AndroidManifest.additional.xml):
+2.In config.xml (under "res/xml"), register the plugin (see also "res/xml/config.additional.xml"):
+    <plugin name="SendSms" value="net.webootu.cordova.plugin.SendSms" />
+3. Add the following lines in your AndroidManifest.additional.xml (see also AndroidManifest.additional.xml):
     <!-- Additional permission for SendSms plugin -->
     <uses-permission android:name="android.permission.SEND_SMS"/>
 
