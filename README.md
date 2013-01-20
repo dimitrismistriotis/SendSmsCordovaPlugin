@@ -30,6 +30,7 @@ As we can see in the Java code, there is a "magic" phone number, "TESTNUM" (used
 
 Callback functions receive a json object with three properties: sms_send (true when calling successful dispatch, false if something has gone wrong), receiving_number (the number the text/SMS was distributed to) and send_text (the text send).
 
+In case you are interested in reading texts/Sms messages, refer to this plugin's sibling: [ReadSmsPlugin](https://github.com/dimitrismistriotis/ReadSmsCordovaPlugin), using the same semantics, under the same license.
 License
 -------
 Please refer to LICENSE file in this repository.
